@@ -7,12 +7,11 @@
 # url validator is simple but found on reddit - better solutions exist but this is fine for me
 
 
-from urllib.parse import urlparse
 import random # duhh
 import time # for sleep n shit
 import base64  #not encryption but just not plain text, all i wanted as its for personal use... If you doing this for others should probably encrypt
 import sqlite3 #database
-from urllib.parse import urlparse, urlunparse
+from urllib.parse import urlparse
 import asyncio
 from aiohttp import web
 
